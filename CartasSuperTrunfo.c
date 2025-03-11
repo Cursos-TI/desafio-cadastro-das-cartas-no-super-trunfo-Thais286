@@ -1,22 +1,67 @@
 #include <stdio.h>
+int main(){
+  printf("Desafiosuper-triunfo!\n");
 
-// Desafio Super Trunfo - Países
-// Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
-// Siga os comentários para implementar cada parte do desafio.
-//Teste larissa
+char estado[2];
+//sigla do estado 
 
-int main() {
-    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
-    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-    
-    // Cadastro das Cartas:
-    // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
-    // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+char codigo[10];
+//codigo da carta
 
-    return 0;
+char nome[50];
+//nome da cidade
+
+int habitantes =20000;
+//população da cidade
+
+float area =10000000;
+//area da cidade
+
+float pib =30000000;
+//pib da cidade
+
+int pontos =50;
+//pontos turisticos da cidade
+
+printf("qual o estado da carta?\n");
+scanf("%2s",estado);
+
+printf("qual o codigo da carta?\n");
+scanf("%10s",codigo);
+
+printf("qual o nome da cidade?\n");
+sacnf("%[^\n]",nome);
+//ler o nome com espaços
+
+printf("qual a populacao da cidade?\n");
+scanf("%d",&populacao);
+
+printf("qual a area da cidade?\n");
+sacanf("%f",&area);
+
+printf("qual o pib da cidade?\n");
+sacnf("%f",&pib);
+
+printf("quantos pontos turisticos essa cidade tem?\n");
+scanf("%d",&pontos);
+
+printf("dados da cidade\n")
+printf("estado:%s\n",estado);
+printf("codigo da carta:%s\n",codigo);
+printf("nome da cidade:%s\n",nome);
+printf("populacao:%d populacao");
+printf("area(em km²):%.2fM²\n",area);
+printf("pib:%2f\n",pib);
+printf("numero de pontos turisticos:%d\n",pontos);
+
+return 0;
 }
+
+
+
+
+
+
+
+
+  
