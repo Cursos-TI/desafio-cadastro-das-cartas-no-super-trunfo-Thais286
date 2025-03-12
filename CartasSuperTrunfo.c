@@ -34,7 +34,7 @@ sacnf("%[^\n]",nome);
 //ler o nome com espaços
 
 printf("qual a populacao da cidade?\n");
-scanf("%d",&populacao);
+scanf("%d","&populacao");
 
 printf("qual a area da cidade?\n");
 sacanf("%f",&area);
@@ -46,13 +46,13 @@ printf("quantos pontos turisticos essa cidade tem?\n");
 scanf("%d",&pontos);
 
 printf("dados da cidade\n")
-printf("estado:%s\n",estado);
-printf("codigo da carta:%s\n",codigo);
-printf("nome da cidade:%s\n",nome);
-printf("populacao:%d populacao");
-printf("area(em km²):%.2fM²\n",area);
-printf("pib:%2f\n",pib);
-printf("numero de pontos turisticos:%d\n",pontos);
+printf("estado:%s\n",A);
+printf("codigo da carta:%s\n",A01);
+printf("nome da cidade:%s\n","São Paulo");
+printf("populacao:%d 12325000 ");
+printf("area(em km²):%.2fM²\n",1521.11);
+printf("pib:%2fbilhoes\n" 699.28 bilhoes de reais);
+printf("numero de pontos turisticos:%d\n",50);
 
 return 0;
 }
@@ -61,7 +61,3 @@ return 0;
 
 
 
-
-
-
-  
