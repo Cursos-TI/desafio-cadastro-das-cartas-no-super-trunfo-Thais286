@@ -11,16 +11,16 @@ char codigo[9];
 char nome[50];
 //nome da cidade
 
-char populacao =200000;
+char populacao [50];
 //populacao da cidade
 
-float area =10000000;
+float area [50];
 //area da cidade
 
-float pib =30000000;
+float pib [50];
 //pib da cidade
 
-int pontos =50;
+int pontos [50];
 //pontos turisticos da cidade
 
 printf("qual o estado da carta?\n");
