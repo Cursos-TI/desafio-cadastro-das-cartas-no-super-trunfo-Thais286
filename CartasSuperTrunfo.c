@@ -8,16 +8,16 @@ char estado[2];
 char codigo[9];
 //codigo da carta
 
-char nome[50];
+char codigo_cidade[50];
 //nome da cidade
 
-char populacao [50];
+char populacao [20000000];
 //populacao da cidade
 
-float area [50];
+float area_km² [100000];
 //area da cidade
 
-float pib [50];
+float pib [30000];
 //pib da cidade
 
 int pontos [50];
@@ -28,15 +28,15 @@ scanf("%2s",estado);
 printf("qual o codigo da carta?\n");
 scanf("%9s",codigo);
 printf("qual o nome da cidade?\n");
-scanf("%s",nome);
+scanf("%50s",nome);
 printf("qual a populacao da cidade?\n");
-scanf("%f",populacao);
+scanf("%20000000f",populacao);
 printf("qual a area da cidade?\n");
-sscanf("%f",&area);
+sscanf("%100000f",&area);
 printf("qual o pib da cidade?\n");
-scanf("%2f",&pib);
+scanf("%30000f",&pib);
 printf("quantos pontos turisticos essa cidade tem?\n");
-scanf("%d",&pontos);
+scanf("%50d",&pontos);
 
 printf("estado:%s\n","A");
 printf("codigo da carta:%s\n","A01\n");
